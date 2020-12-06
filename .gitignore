@@ -14,7 +14,7 @@ README.md
 karma.conf.js
 
 src/test.ts
-src/environments
+
 
 # dependencies
 /node_modules
