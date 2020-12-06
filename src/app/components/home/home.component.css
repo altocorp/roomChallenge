@@ -1,0 +1,300 @@
+.imgTopLeft {
+  width: 100%;
+  height: 65vh;
+}
+
+.pad {
+  padding: 7vh 8vw;
+}
+
+.noP{
+    padding:0;
+}
+
+.imgBottomLeft {
+  width: 100%;
+  padding-right: 3vw;
+  height: 35vh;
+}
+
+.imgBottomRight {
+  width: 100%;
+  padding-left: 3vw;
+  height: 35vh;
+}
+
+.titleBottom {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.titleTop {
+  font-size: 3.5rem;
+}
+
+.subText {
+  padding-top: 1vh;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 63%);
+}
+
+.subText2 {
+  padding-top: 1vh;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+.subText2:hover{
+    color: grey;
+}
+
+.svgS{
+        padding-left: 3vw;
+}
+
+.bloc{
+    position: absolute;
+    z-index: 3;
+    bottom:0;
+    cursor: pointer;
+}
+
+.blocBis{
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 5.7vw;
+    border: none;
+}
+
+.blocBis:hover{
+    background-color: grey;
+}
+
+.alignVertically {
+  display: grid;
+  align-content: center;
+}
+
+.arrow{
+    font-size: 4rem;
+}
+
+
+@media only screen and (max-width: 2100px) {
+      
+      .pad {
+        padding: 5vh 6vw;
+      }
+    
+      .titleBottom {
+        font-size: 1.4rem;
+      }
+      
+      .titleTop {
+        font-size: 2.7rem;
+      }
+      
+      .subText {
+        padding-top: 1vh;
+        font-size: 0.8rem;
+      }
+      
+      .subText2 {
+        padding-top: 1vh;
+        font-size: 1.1rem;
+        letter-spacing: 8px;
+      }
+      
+      .svgS{
+        padding-left: 2vw;
+      }
+      
+      .blocBis{
+          height: 10vh;
+          width: 5.7vw;
+      }
+      
+      .arrow{
+          font-size: 3.5rem;
+      }
+      
+  }
+
+@media only screen and (max-width: 1350px) {
+      
+    .pad {
+      padding: 3vh 4vw;
+    }
+  
+    .titleBottom {
+      font-size: 1.1rem;
+    }
+    
+    .titleTop {
+      font-size: 2.2rem;
+    }
+    
+    .subText {
+      padding-top: 1vh;
+      font-size: 0.7rem;
+    }
+    
+    .subText2 {
+      padding-top: 1vh;
+      font-size: 0.8rem;
+      letter-spacing: 6px;
+    }
+    
+    .svgS{
+      padding-left: 2vw;
+    }
+    
+    .blocBis{
+        height: 8vh;
+        width: 5.7vw;
+    }
+    
+    .arrow{
+        font-size: 3.1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 760px) {
+      
+    .imgTopLeft {
+        height: 65vh;
+      }
+      
+      .pad {
+        padding: 7vh 8vw;
+      }
+      
+      .imgBottomLeft {
+        height: 50vh;
+        padding:0;
+      }
+      
+      .imgBottomRight {
+        height: 50vh;
+        padding:0;
+      }
+      
+      .titleBottom {
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+      
+      .titleTop {
+        font-size: 2.5rem;
+      }
+      
+      .subText {
+        padding-top: 1vh;
+        font-weight: 500;
+        font-size: 1rem;
+        color: hsl(0, 0%, 63%);
+      }
+      
+      .subText2 {
+        padding-top: 1vh;
+        font-weight: 500;
+        font-size: 1.2rem;
+        letter-spacing: 6px;
+        cursor: pointer;
+      }
+      
+      .subText2:hover{
+          color: grey;
+      }
+      
+      .svgS{
+              padding-left: 3vw;
+      }
+      
+      .bloc{
+          position: absolute;
+          z-index: 3;
+          top:-8vh;
+          right: 0;
+          cursor: pointer;
+      }
+      
+      .blocBis{
+          background-color: black;
+          display: grid;
+          align-items: center;
+          justify-content: center;
+          height: 8vh;
+          width: 8.7vw;
+          border: none;
+      }
+      
+      .alignVertically {
+        display: grid;
+        align-content: center;
+      }
+      
+      .pad2 {
+        padding: 7vh 8vw;
+      }
+   
+    
+}
+
+@media only screen and (max-width: 350px) {
+      
+      .titleBottom {
+        font-weight: 600;
+        font-size: 0.8rem;
+      }
+      
+      .titleTop {
+        font-size: 1.5rem;
+      }
+      
+      .subText {
+        padding-top: 1vh;
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: hsl(0, 0%, 63%);
+      }
+      
+      .subText2 {
+        padding-top: 1vh;
+        font-weight: 500;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+        cursor: pointer;
+      }
+      
+      .bloc{
+          position: absolute;
+          z-index: 3;
+          top:-8vh;
+          right: 0;
+          cursor: pointer;
+      }
+      
+      .blocBis{
+          background-color: black;
+          display: grid;
+          align-items: center;
+          justify-content: center;
+          height: 8vh;
+          width: 8.7vw;
+          border: none;
+      }
+      
+      .pad2 {
+        padding: 7vh 8vw;
+      }
+    
+}
+
